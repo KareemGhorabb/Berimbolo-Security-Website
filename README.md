@@ -29,10 +29,7 @@ Berimbolo Security is a fictional security firm created for the purpose of this 
 
 ## And here is my Design
 
-## Design
-
-![Homepage](/Repo-imgs/Screenshot_10-5-2024_23247_127.0.0.1 (1).jpeg)
-![The Circuit Design](/imgs/circuit.png)
+-**To find my Website Design-----> Repo-imgs folder
 
 
 
