@@ -18,11 +18,11 @@ Contributing:
 Contributions to enhance the website's functionality, design, or content are welcomed. Feel free to fork this repository, make improvements, and submit pull requests.
 
 
-Acknowledgements:
 
-Bootstrap
-Font Awesome
-jQuery
+## Acknowledgements:
+- **Bootstrap:** A popular front-end framework for building responsive and mobile-first websites.
+- **Font Awesome:** A library of scalable vector icons that can be customized with CSS.
+
 ## About Berimbolo Security:
 
 Berimbolo Security is a fictional security firm created for the purpose of this project. The website content and details are purely for educational and demonstration purposes.
