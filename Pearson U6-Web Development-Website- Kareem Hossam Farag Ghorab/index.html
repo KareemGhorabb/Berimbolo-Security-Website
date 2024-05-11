@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berimbolo Security</title>
+  <link rel="shortcut icon" href="imgs/letter-b.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-black fixed-top bg-opacity-50" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="imgs/letter-b.png" alt="logo"></a>
+      <h5 class="text-white">Berimbolo Security</h5>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-gear"></i> Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-coin"></i> Price Plans</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-file-earmark-fill"></i>
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="products.html">Products</a></li>
+              <li><a class="dropdown-item" href="about.html">about</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-envelope-at-fill"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="kk" style="background-image: url(imgs/pexels-scottwebb-430208.jpg);">
+    <div class="header-text text-white">
+
+      <h1 class="display-4 fw-bold mt-5" style="color: rgb(245, 242, 242);">Safe & Secure Home <br> For Your Family With</h1>
+      <img src="imgs/letter-b.png" alt="">
+      <h2>Berimbolo Security</h2>
+      <a href="#" class="btn btn-dark btn-lg">Read More</a>
+      <a href="#" class="btn btn-light btn-lg">Contact US </a>
+    </div>
+  </header>
+  <section class="py-5" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 cc">
+          <img src="imgs/letter-b1.png" alt="company name" class="w-50 ">
+          <h4 class="mt-3" style="color: #252a3f;"> Berimbolo Security</h4>
+        </div>
+        <div class="col-md-8">
+          <h5 class="text-primary ">ABOUT US</h5>
+          <h3 class="display-4 fw-bold">
+            We Offers Quality CCTV <br> Systems & Services
+          </h3>
+          <p class="lead my-3 fw-medium text-secondary">At Berimbolo Security,</p>
+          <p>we are dedicated to providing top-quality CCTV systems and services to meet your security needs. With years of experience in the industry, we offer expertise and reliability you can trust. Our team is committed to delivering tailored solutions that ensure the safety and protection of your property, assets, and loved ones. From consultation to installation and ongoing support, we prioritize customer satisfaction and strive for excellence in everything we do. Partner with us for peace of mind and unparalleled security solutions.</p>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="py-5" style="height: 120vh;" id="services">
+    <div class="container h-100">
+
+      <h5 class="text-primary text-center">SERVICES</h5>
+      <h3 class="display-4 fw-bold text-center">
+        Our Premier<br> Security Services 
+      </h3>
+
+      <div class="row d-flex row-cols-sm-2 row-cols-md-3 " style="height: 40vh !important;">
+        <script>
+          let arr = [
+            {name:"Security Risk",subname:"Assessment",par:"Thorough security risk assessment service ensures digital safety and resilience."},
+            {name:"Security Solutions",subname:"Selling", par:"Specializing in Selling Integrated Security Systems Solutions"},
+            {name:"Security Systems",subname:"Installation",par:"Efficient installation for reliable CCTV and alarm security systems."},
+            {name:"Security Systems",subname:"Maintenance ",par:"Ensure CCTV, alarms stay optimal with expert maintenance services."},
+            {name:"Security Systems",subname:"Monitoring", par:"Continuous monitoring 24/7 for heightened security, peace of mind assured."},
+            {name:"Security Systems",subname:"Consulting", par:"Expert advice and guidance to enhance your security posture."}
+
+          ]
+          for (i = 0; i <= 5; i++) {
+            document.write(`
+            <div class="col mb-2">
+                        <div class="card h-100 p-3">
+                            <img src="images/service1.png" class="w-50 mb-3" alt="">
+                            <h5 class="text-primary">${arr[i].name}</h5>
+                            <h3 class=" fw-bold">${arr[i].subname}</h3>
+                            <p>${arr[i].par}</p>
+                            <a href="#" style="text-decoration: none;">
+                              Read More
+                            </a>
+                        </div>
+                    </div>
+          `)
+          }
+
+        </script>
+
+      </div><!-- row -->
+    </div><!--  container -->
+    </section>
+    <br>
+    <section class="py-5" style="height: 100vh;" id="plans">
+      <div class="container ">
+  
+        <h5 class="text-primary text-center">PRICING PLANs</h5>
+        <h3 class="display-5 fw-bold text-center mb-4">
+          Pricing Packages <br>
+        </h3>
+  
+        <div class="row   pt-3 Pricing_Plans">
+  
+          <div class=" col ">
+            <div class="card ">
+              <div class="card-header py-5 bg-dark text-white text-center">
+                <h3>Basic Package</h3>
+                <h3><sup>$</sup> 49 <sub style="font-size: 16px;">/ mo</sub></h3>
+  
+              </div> <!-- card-header -->
+  
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">1x Alarm</li>
+                  <li class="list-group-item">1x CCTV cam</li>
+                  <li class="list-group-item">1x local CCTV Footage Storage</li>
+                  <li class="list-group-item"> <del>Online CCTV Footage Storage</del></li>
+                  <li class="list-group-item"> <del>Centrally monitored</del></li>
+  
+  
+                </ul>
+              </div> <!-- card-body -->
+  
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-dark">Order Now</a>
+              </div> <!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- plan 1 -->
+  
+          <div class=" col">
+            <div class="card ">
+              <div class="card-header py-5 bg-dark text-white text-center">
+                <h3>Standard Package</h3>
+                <h3><sup>$</sup> 69 <sub style="font-size: 16px;">/ mo</sub></h3>
+  
+              </div> <!-- card-header -->
+  
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">1x Alarm</li>
+                  <li class="list-group-item">2x CCTV cam</li>
+                  <li class="list-group-item">local CCTV Footage Storage</li>
+                  <li class="list-group-item">Online CCTV Footage Storage</li>
+                  <li class="list-group-item"> <del>Centrally monitored</del></li>
+                </ul>
+              </div> <!-- card-body -->
+  
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-dark">Order Now</a>
+              </div> <!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- plan 2 -->
+  
+          <div class=" col">
+            <div class="card ">
+              <div class="card-header py-5 bg-dark text-white text-center">
+                <h3>Deluxe Package</h3>
+                <h3><sup>$</sup> 99 <sub style="font-size: 16px;">/ mo</sub></h3>
+  
+              </div> <!-- card-header -->
+  
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">1x Alarm</li>
+                  <li class="list-group-item">4x CCTV cam</li>
+                  <li class="list-group-item">local CCTV Footage Storage</li>
+                  <li class="list-group-item">Online CCTV Footage Storage</li>
+                  <li class="list-group-item">Centrally monitored</li>
+                </ul>
+              </div> <!-- card-body -->
+  
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-dark">Order Now</a>
+              </div> <!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- plan 3 -->
+  
+          <div class=" col ">
+            <div class="card ">
+              <div class="card-header premium py-5  text-white text-center" style="background-color: rgb(211, 179, 0);">
+                <h3>Custom Package</h3>
+                <h4><sup>$</sup> <i>it Depends</i> <sub style="font-size: 16px;"></sub></h4>
+  
+              </div> <!-- card-header -->
+  
+              <div class="card-body">
+                <ul class="list-group">
+                  <li style="list-style: none;">You must contact company to :</li>
+                  <li class="list-group-item"> Alarm</li>
+                  <li class="list-group-item">CCTV cam</li>
+                  <li class="list-group-item">Online &local CCTV Footage Storage</li>
+                  <li class="list-group-item"> CCTV Footage Storage</li>
+                  <li class="list-group-item">Centrally monitored</li>
+                </ul>
+              </div> <!-- card-body -->
+  
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-dark">Order Now</a>
+              </div> <!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- plan 4 -->
+  
+  
+        </div><!-- row -->
+      </div><!--  container -->
+    </section>
+  <section class="py-5" id="testimonial">
+    <div class="container">
+
+      <h5 class="text-primary text-center">TESTIMONIAL</h5>
+      <h3 class="display-5 fw-bold text-center mb-4">
+        Feedbacks Regarding  <br> Our Services
+      </h3>
+
+      <div class="row pt-5 ">
+
+        <div class=" col-md-4 col-sm-6 mb-2">
+          <div class="card bg-primary bg-opacity-10  text-center border-0">
+            <p class="my-3">I'm thoroughly impressed by Berimbolo Security's professionalism and unwavering dedication to ensuring the safety of my office space. Their team provided excellent advice tailored to our specific needs, guiding us through every step of the process with clarity and expertise.!</p>
+            <h4 class="mb-3">Ahmed Hossam</h4>
+            <h5 class="mb-3 text-secondary">Business Owner</h5>
+
+          </div><!-- card -->
+        </div><!-- customer 1 -->
+
+        <div class=" col-md-4 col-sm-6 mb-2">
+          <div class="card bg-primary bg-opacity-10  text-center border-0">
+            <p class="my-3">I am extremely impressed by the professionalism and expertise demonstrated by Berimbolo Security. From the initial consultation to the installation of our security system, they ensured every aspect was tailored to our specific needs. Their dedication to customer satisfaction is commendable, and I feel confident knowing our property is protected by their top-notch security solutions.!</p>
+            <h4 class="mb-3">Mohamed saad</h4>
+            <h5 class="mb-3 text-secondary">Homeowner</h5>
+
+          </div><!-- card -->
+        </div><!-- customer 2 -->
+
+        <div class=" col-md-4 col-sm-6 mb-2" >
+          <div class="card bg-primary bg-opacity-10  text-center border-0">
+            <p class="my-3">Berimbolo Security exceeded my expectations with their prompt and efficient service. Their team not only installed the CCTV system flawlessly but also provided valuable advice on optimizing its performance. I highly recommend their services for anyone looking for reliable security solutions</p>
+            <h4 class="mb-3">Mohamed Gamal</h4>
+            <h5 class="mb-3 text-secondary">Business Owner</h5>
+
+          </div><!-- card -->
+        </div><!-- customer 3 -->
+
+      </div><!-- row -->
+    </div><!--  container -->
+  </section>
+  <section class="py-5" id="contact">
+    <div class="container">
+      <h5 class="text-primary text-center">Contact us</h5>
+      <h3 class="display-5 fw-bold text-center mb-4">
+        Keep your information  <br> Contact Us
+      </h3>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text text-dark"><i class="bi bi-person-circle"></i></span>
+              <input type="text" class="form-control form-control-lg" placeholder="Your name">
+            </div> <!-- name -->
+
+            <div class="input-group mb-3">
+              <span class="input-group-text text-dark"><i class="bi bi-envelope"></i></span>
+              <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+            </div> <!-- email -->
+
+            <div class="input-group mb-3">
+              <span class="input-group-text text-dark"><i class="bi bi-chat-left-dots-fill"></i></span>
+              <textarea class="form-control form-control-lg" placeholder="Your Message" rows="3"></textarea>
+            </div> <!-- message -->
+
+            <div class="input-group mb-3">
+              <button type="submit" class="btn btn-dark btn-lg w-100">Send</button>
+            </div> <!-- submit -->
+
+          </form>
+        </div> <!-- left -->
+
+
+      </div>
+    </div><!-- container -->
+  </section>
+  <footer class="py-3 bg-dark text-white text-center">
+    <span><i class="bi bi-c-circle"></i> Created By <strong>Kareem Ghorab </strong></span>
+    <br>
+    <span>2024</span>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</body>
+
+</html>
