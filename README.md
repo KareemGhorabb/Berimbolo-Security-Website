@@ -27,6 +27,14 @@ jQuery
 
 Berimbolo Security is a fictional security firm created for the purpose of this project. The website content and details are purely for educational and demonstration purposes.
 
+## And here is my Design
+
+## Design
+
+![Homepage](/Repo-imgs/Screenshot_10-5-2024_23247_127.0.0.1 (1).jpeg)
+![The Circuit Design](/imgs/circuit.png)
+
+
 
 ## Contact me
 - **Email**: [Kareemhossam.weschool@gmail.com]
